@@ -1,4 +1,4 @@
-# kotlin-cheatsheet
+# Kotlin Cheatsheet
 
 [Cheat Sheet Page](https://kenjiohtsuka.github.io/kotlin-cheatsheet/en)
 
