@@ -63,11 +63,12 @@
     * Returns value.
     * Pattern 1
         ```
-        when (condition) {
-            a -> {}
-            in b -> {}
-            is Type => {}
-            else -> {}
+        when (value) {
+            a -> { ... }
+            b, c -> { ... }
+            in d -> { ... }
+            is Type => { ... }
+            else -> { ... }
         }
         ```
     * Pattern 2
