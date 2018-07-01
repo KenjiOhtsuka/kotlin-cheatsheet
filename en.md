@@ -16,12 +16,12 @@
         ```
 * Modifier
 
-| Keyword  | Effect on top-level declarations | Effect on Class Members |
-|:--|:--|:--|
-| public | visible everywhere | visible everywhere if class is accessible |
-| private | visible inside the file only | visible inside the class only |
-| protected | - | visible in class and subclasses |
-| internal | visible inside the same module | visible in the same module, if class is accessible |
+    | Keyword  | Effect on top-level declarations | Effect on Class Members |
+    |:--|:--|:--|
+    | public | visible everywhere | visible everywhere if class is accessible |
+    | private | visible inside the file only | visible inside the class only |
+    | protected | - | visible in class and subclasses |
+    | internal | visible inside the same module | visible in the same module, if class is accessible |
 
 * Main Funcition
      ```
