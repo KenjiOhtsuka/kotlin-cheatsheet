@@ -1,4 +1,6 @@
 
+## Coding Rule
+
 ## Function
 
 * Declare with `fun`
