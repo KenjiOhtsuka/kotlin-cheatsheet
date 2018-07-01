@@ -86,8 +86,26 @@
 ### Class Common
 
 * Primary Constructor
+   ```
+   class A(name: String, val propertyValue1: Int, var propertyValue2: Int) {
+      init {
+         // initializer
+      }
+   }
+   ```
 * Secondary Constructor
+   ```
+   class A(name: String) {
+      fun constructor(int: Int): this(int.toString()) {
+         // secondary constructor
+      }
+   }
+   ```
 * Inheritance
+   ```
+   class Parent
+   class Child() : Parent()
+   ```
 * Property
     * Plain
     ```
@@ -112,10 +130,21 @@ data clss User(name: String, email: Address)
 ```
 
 ### Abstract Class
+    ```
+    abstract class AbstractClass {
+        abstract val a: Int
+        abstract fun b()
+    }
+    ```
 
 ### Enum Class
+    ```
+    enum class EnumClass {
+    }
+    ```
 
 ### Sealed Class
+
 
 ### Object
 
