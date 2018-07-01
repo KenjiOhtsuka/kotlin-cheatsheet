@@ -86,6 +86,12 @@
 
 ### Class Common
 
+* As default, Kotlin class is final class, can't be inherited.
+    * If you want to inherit, add `open` to before the `class` identifier.
+        ```
+        open class Config { ... }
+        ```
+
 * Primary Constructor
    ```
    class A(name: String, val propertyValue1: Int, var propertyValue2: Int) {
