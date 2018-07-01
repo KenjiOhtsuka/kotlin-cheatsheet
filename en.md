@@ -7,7 +7,7 @@
     * Normal
         ```
         fun sum(a: Int, b: Int): Int {
-           return a + b
+            return a + b
         }
         ```
     * Short (Single-Expression)
