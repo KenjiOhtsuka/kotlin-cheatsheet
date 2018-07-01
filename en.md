@@ -130,12 +130,13 @@ data clss User(name: String, email: Address)
 ```
 
 ### Abstract Class
-    ```
-    abstract class AbstractClass {
-        abstract val a: Int
-        abstract fun b()
-    }
-    ```
+
+```
+abstract class AbstractClass {
+   abstract val a: Int
+   abstract fun b()
+}
+```
 
 ### Enum Class
 
