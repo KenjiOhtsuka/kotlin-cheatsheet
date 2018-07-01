@@ -1,8 +1,7 @@
-> if you here for requesting Kotlin Cheat Sheet, I recommend to see the following URLs.
-> * https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a
-> * https://kotlinexpertise.com/dzone_refcard_kotlin/
 
-* Declaring Function
+## Function
+
+* Declare with `fun`
     * Normal
         ```
         fun sum(a: Int, b: Int): Int {
@@ -17,8 +16,15 @@
      ```
      fun main(vararg args: String) { }
      ```
+* Extension Function
+* Anonymous Function
+* Lambda
 
-* Declaring Variables
+
+
+## Variable
+
+* Declation
     ```
     val a = 1  // can be changed 
     var b = 2L // can't be changed
@@ -63,3 +69,48 @@
         ```
 * `for` loop
 * `while` loop
+
+## Class
+
+### Class Common
+
+* Primary Constructor
+* Secondary Constructor
+* Inheritance
+* Property
+    * Plain
+    ```
+    val a: Int = 1
+    var b: Long = 2
+    ```
+    * With Accessors
+    ```
+    var c: Boolean
+    get () { return true }
+    set (value) { field = value }
+    ```
+    
+### Data Class
+
+### Abstract Class
+
+### Enum Class
+
+### Object
+
+### Interface
+
+## Type
+
+### Basic Type
+
+### Collection
+
+## Scope Function
+
+> let, with, run, apply, also
+
+## Delegation
+
+* Property
+* Function
