@@ -14,31 +14,33 @@
         fun sun(a: Int, b: Int): Int = a + b
         ```
 * Main Funcition
-    ```
-    fun main(vararg args: String) { }
-    ```
+     ```
+     fun main(vararg args: String) { }
+     ```
 
 * Declaring Variables
-   ```
-   val a = 1  // can be changed 
-   var b = 2L // can't be changed
-   ```
+    ```
+    val a = 1  // can be changed 
+    var b = 2L // can't be changed
+    ```
 * Declaring Constant: only for primitive types
-   ```
-   const val a = 1
-   ```
+    ```
+    const val a = 1
+    ```
 * Nullable Type
-   * `Type?` represents `Type` or `null`.
-       ```
-       var a: Int?
-       a = 1
-       a = null
-       ```
-   * `?:`, `?.`, `!!`
+    * `Type?` represents `Type` or `null`.
+        ```
+        var a: Int?
+        a = 1
+        a = null
+        ```
+    * `?:`, `?.`, `!!`
    
 ## Flow Control
 
-* `If` expression
-   * Returns value.
-   * `if (condition) a else b`
-   * ```if (condition) { a } else { b }```
+* `if` expression
+    * Returns value.
+    * `if (condition) a else b`
+    * ```if (condition) { a } else { b }```
+* `when` expression
+    *
