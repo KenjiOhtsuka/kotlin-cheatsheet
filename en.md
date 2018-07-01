@@ -102,6 +102,10 @@
       }
    }
    ```
+* Instanciation
+   ```
+   val a = ClassName()
+   ```
 * Inheritance
    ```
    class Parent
@@ -168,7 +172,26 @@ abstract class AbstractClass {
 
 ### Object
 
+* Internally, singleton class
+    ```
+    object Object {
+        fun objectFunction() { ... }
+    }
+    ```
+
 ### Interface
+
+```
+interface Interface {
+    val value: Long
+    fun interfaceFunction1(): Int
+    fun interfaceFunction2() { println(1) }
+}
+class InheritClass : Interface {
+    override val value = 1L
+    override fun interfaceFunction1() = 1
+}
+```
 
 ## Type
 
