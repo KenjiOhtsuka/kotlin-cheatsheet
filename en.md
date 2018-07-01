@@ -28,18 +28,30 @@
     | internal | visible inside the same module | visible in the same module, if class is accessible |
 
 * Main Funcition
-     ```
-     fun main(vararg args: String) { }
-     ```
+    ```
+    fun main(vararg args: String) { }
+    ```
 * Extension Function
+    ```
+    fun Class.function() { ... }
+    ```
 * Anonymous Function
+
+```
+val anonymousFunction = fun(x: Int, y: Int): Int { return x + y }
+```
    
 * Lambda
 
 ```
-val lambda = { x, y ->
+val lambda = { x: Int, y: Int ->
     x + y
 }
+```
+
+* Operator
+
+```
 ```
 
 ## Variable
