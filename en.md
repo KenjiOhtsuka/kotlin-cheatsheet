@@ -138,10 +138,28 @@ data clss User(name: String, email: Address)
     ```
 
 ### Enum Class
+
+* Simple Version
     ```
-    enum class EnumClass {
+    enum class EnumClass(val a: Int, var b: Int) {
+      First(1, 1),
+      Second(2, 2)
     }
     ```
+* With Function
+    ```
+    interface EnumInterface { fun p() = { println(1) }}
+    enum class EnumClass(val a: Int) : EnumInterface {
+        First(1) {
+            override fun enumFunction() { ... }
+        },
+        Second(2) {
+            override fun enumFunction() { ... }
+        };
+        abstract fun enumFunction() { ... }
+    }
+    ```
+
 
 ### Sealed Class
 
