@@ -4,8 +4,8 @@
 
 ## Other Reference
 
-https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a
-https://kotlinexpertise.com/dzone_refcard_kotlin/
+* https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a
+* https://kotlinexpertise.com/dzone_refcard_kotlin/
 
 Contribution is welcomed.
 Create new branch from master, and create PR.
