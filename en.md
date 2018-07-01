@@ -14,6 +14,10 @@
         ```
         fun sun(a: Int, b: Int): Int = a + b
         ```
+* As default, function is final. To make it overrideable, add `open` to the head.
+    ```
+    open fun function() { ... }
+    ```
 * Modifier
 
     | Keyword  | Effect on top-level declarations | Effect on Class Members |
