@@ -43,4 +43,23 @@
     * `if (condition) a else b`
     * ```if (condition) { a } else { b }```
 * `when` expression
-    *
+    * Returns value.
+    * Pattern 1
+        ```
+        when (condition) {
+            a -> {}
+            in b -> {}
+            is Type => {}
+            else -> {}
+        }
+        ```
+    * Pattern 2
+        ```
+        when {
+            a == 2 -> 1
+            b > 2 -> 2
+            else -> 3
+        }
+        ```
+* `for` loop
+* `while` loop
