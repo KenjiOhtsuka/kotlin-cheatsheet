@@ -178,6 +178,14 @@ data clss User(name: String, email: Address)
 
 > let, with, run, apply, also
 
+| Identifier | Is extension function | The object is represented as | return value |
+|:--|:--|:--|:--|
+| `also` | Yes | `it` | The Object |
+| `let` | Yes | `it` | Result |
+| `apply` | Yes | `this` | The Object |
+| `run` | Yes | `this` | Result |
+| `with` | No | `this` | Result |
+
 ## Delegation
 
 * Property
