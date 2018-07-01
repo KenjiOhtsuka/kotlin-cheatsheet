@@ -14,6 +14,15 @@
         ```
         fun sun(a: Int, b: Int): Int = a + b
         ```
+* Modifier
+
+| Keyword  | Effect on top-level declarations | Effect on Class Members |
+|:--|:--|:--|
+| public | visible everywhere | visible everywhere if class is accessible |
+| private | visible inside the file only | visible inside the class only |
+| protected | - | visible in class and subclasses |
+| internal | visible inside the same module | visible in the same module, if class is accessible |
+
 * Main Funcition
      ```
      fun main(vararg args: String) { }
@@ -91,12 +100,22 @@
     get () { return true }
     set (value) { field = value }
     ```
-    
+* Modifire
+
+
 ### Data Class
+
+* For value object.
+
+```
+data clss User(name: String, email: Address)
+```
 
 ### Abstract Class
 
 ### Enum Class
+
+### Sealed Class
 
 ### Object
 
