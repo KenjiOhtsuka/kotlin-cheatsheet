@@ -33,9 +33,14 @@
      ```
 * Extension Function
 * Anonymous Function
+   
 * Lambda
 
-
+```
+val lambda = { x, y ->
+    x + y
+}
+```
 
 ## Variable
 
