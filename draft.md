@@ -39,3 +39,6 @@
 ## Flow Control
 
 * `If` expression
+   * Returns value.
+   * `if (condition) a else b`
+   * ```if (condition) { a } else { b }```
