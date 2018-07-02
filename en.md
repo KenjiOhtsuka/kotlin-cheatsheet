@@ -44,9 +44,7 @@ val anonymousFunction = fun(x: Int, y: Int): Int { return x + y }
 * Lambda
 
 ```
-val lambda = { x: Int, y: Int ->
-    x + y
-}
+val lambda = { x: Int, y: Int -> x + y }
 ```
 
 * Operator
@@ -101,6 +99,15 @@ val lambda = { x: Int, y: Int ->
         }
         ```
 * `for` loop
+
+```
+for (c in "sequence") { ... }
+```
+
+```
+for ((i,c) in "sequence".withIndex()) { println("$i: $c") }
+```
+
 * `while` loop
 
 ## Class
@@ -225,7 +232,10 @@ class InheritClass : Interface {
 ### Basic Type
 
 * Number
-    * `Int`, `Short`, `Long`, `Float`, `Double`, `Boolean`, `Char`, `Byte`
+    * `Int`, `Short`, `Long`, `Float`, `Double`, `Boolean`, `Byte`
+* `Boolean`
+* `Char`: represents like 'C'
+    * Can add number: `'C' + 1 // 'D'`
 * `String`
 
 ### Collection
@@ -233,8 +243,6 @@ class InheritClass : Interface {
 List, Map, Array
 
 ## Scope Function
-
-> let, with, run, apply, also
 
 | Identifier | Is extension function | The object is represented as | return value |
 |:--|:--|:--|:--|
