@@ -240,7 +240,7 @@ class InheritClass : Interface {
 
 ## Delegation
 
-* Property
+* Variable
     ```
     val a by lazy {
         1 + 1
