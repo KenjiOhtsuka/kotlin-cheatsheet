@@ -224,7 +224,13 @@ class InheritClass : Interface {
 
 ### Basic Type
 
+* Number
+    * `Int`, `Short`, `Long`, `Float`, `Double`, `Boolean`, `Char`, `Byte`
+* `String`
+
 ### Collection
+
+List, Map, Array
 
 ## Scope Function
 
