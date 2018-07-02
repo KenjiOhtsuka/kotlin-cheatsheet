@@ -241,6 +241,12 @@ class InheritClass : Interface {
 ## Delegation
 
 * Property
+    ```
+    val a by lazy {
+        1 + 1
+    }
+    ```
+* observable
 * Function
 
 ## DSL Development
