@@ -239,6 +239,7 @@ class InheritClass : Interface {
 * Number
     * `Int`, `Short`, `Long`, `Float`, `Double`, `Byte`
 * `Boolean`: `true` and `false`
+    * Operated by `||`, `&&`, and `!`
 * `Char`: represents like 'C'
     * Can add number: `'C' + 1 // 'D'`
 * `String`
