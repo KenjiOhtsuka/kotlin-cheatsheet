@@ -109,6 +109,10 @@ for (c in "sequence") { ... }
 for ((i,c) in "sequence".withIndex()) { println("$i: $c") }
 ```
 
+```
+for (c in 'A'..'Z') { ... }
+```
+
 * `while` loop
 
 ## Class
