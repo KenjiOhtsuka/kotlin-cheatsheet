@@ -70,7 +70,8 @@ val lambda = { x: Int, y: Int -> x + y }
         a = 1
         a = null
         ```
-    * `?:`, `?.`, `!!`
+    * `?:` (elvis operator), `?.`, `!!`
+    * `as?`
    
 ## Flow Control
 
