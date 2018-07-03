@@ -247,6 +247,15 @@ class InheritClass : Interface {
 
 List, Map, Array
 
+### Alias
+
+* `typealias`: Add alias to a type.
+   ```
+   typealias Matrix = Array<DoubleArray>
+   typealias IntPredicate = (Int) -> Boolean
+   ```
+   * `typealias` can be used in top level.
+
 ## Scope Function
 
 | Identifier | Is extension function | The object is represented as | return value |
