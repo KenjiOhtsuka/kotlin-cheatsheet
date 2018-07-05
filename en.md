@@ -77,31 +77,38 @@ val lambda = { x: Int, y: Int -> x + y }
    
 ## Flow Control
 
-* `if` expression
-    * Returns value.
-    * `if (condition) a else b`
-    * ```if (condition) { a } else { b }```
-* `when` expression
-    * Returns value.
-    * Pattern 1
-        ```
-        when (value) {
-            a -> { ... }
-            b, c -> { ... }
-            in d -> { ... }
-            is Type => { ... }
-            else -> { ... }
-        }
-        ```
-    * Pattern 2
-        ```
-        when {
-            a == 2 -> 1
-            b > 2 -> 2
-            else -> 3
-        }
-        ```
-* `for` loop
+* Put spaces between control flow keywords (`if`, `when`, `for` and `while`) and the corresponding opening parenthesis.
+
+### `if` expression
+
+* Returns value.
+* `if (condition) a else b`
+* ```if (condition) { a } else { b }```
+
+### `when` expression
+
+Returns value.
+
+* Pattern 1
+    ```
+    when (value) {
+        a -> { ... }
+        b, c -> { ... }
+        in d -> { ... }
+        is Type => { ... }
+        else -> { ... }
+    }
+    ```
+* Pattern 2
+    ```
+    when {
+        a == 2 -> 1
+        b > 2 -> 2
+        else -> 3
+    }
+    ```
+
+### `for` loop
 
 ```
 for (c in "sequence") { ... }
@@ -115,7 +122,7 @@ for ((i,c) in "sequence".withIndex()) { println("$i: $c") }
 for (c in 'A'..'Z') { ... }
 ```
 
-* `while` loop
+### `while` loop
 
 ## Class
 
@@ -206,7 +213,8 @@ abstract class AbstractClass {
         abstract fun enumFunction() { ... }
     }
     ```
-
+* Naming
+    * Either uppercase underscore-separated names or regular camel-humps names starting with an uppercase letter, depending on the usage.
 
 ### Sealed Class
 
