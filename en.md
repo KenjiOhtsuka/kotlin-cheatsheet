@@ -59,10 +59,12 @@ val lambda = { x: Int, y: Int -> x + y }
     val a = 1  // can be changed 
     var b = 2L // can't be changed
     ```
+    * Top-level or object `val` properties with no custom get function) should be uppercase underscore-separated names.
 * Declaring Constant: only for primitive types
     ```
-    const val a = 1
+    const val A = 1
     ```
+    * Names of constants (marked with `const`) should be uppercase underscore-separated names.
 * Nullable Type
     * `Type?` represents `Type` or `null`.
         ```
