@@ -1,5 +1,7 @@
 
-## Coding Rule
+## Common Style Guide
+
+* Put a space after `:`.
 
 ## Function
 
@@ -14,6 +16,7 @@
         ```
         fun sun(a: Int, b: Int): Int = a + b
         ```
+    * Do not put a space before an opening parenthesis in method declaration or method call.
 * As default, function is final. To make it overrideable, add `open` to the head.
     ```
     open fun function() { ... }
@@ -72,7 +75,10 @@ val lambda = { x: Int, y: Int -> x + y }
         a = 1
         a = null
         ```
-    * `?:` (elvis operator), `?.`, `!!`
+        * Do not put a space before `?`
+    * `?:` (elvis operator), `!!`
+    * `?.`
+         * Never put a space around . or ?.
     * `as?`
    
 ## Flow Control
@@ -142,6 +148,7 @@ for (c in 'A'..'Z') { ... }
       }
    }
    ```
+   * Do not put a space before an opening parenthesis in a primary constructor declaration
 * Secondary Constructor
    ```
    class A(name: String) {
@@ -155,10 +162,11 @@ for (c in 'A'..'Z') { ... }
    val a = ClassName()
    ```
 * Inheritance
-   ```
-   class Parent
-   class Child() : Parent()
-   ```
+    ```
+    class Parent
+    class Child() : Parent()
+    ```
+    * Put space before `:` which seperates subclass and superclass.
 * Property
     * Plain
     ```
@@ -202,7 +210,7 @@ abstract class AbstractClass {
     ```
 * With Function
     ```
-    interface EnumInterface { fun p() = { println(1) }}
+    interface EnumInterface { fun p() = { println(1) } }
     enum class EnumClass(val a: Int) : EnumInterface {
         First(1) {
             override fun enumFunction() { ... }
