@@ -2,6 +2,7 @@
 ## Common Style Guide
 
 * Put a space after `:`.
+* Use 4 spaces for indentation.
 
 ## Function
 
