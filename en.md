@@ -48,7 +48,9 @@ val anonymousFunction = fun(x: Int, y: Int): Int { return x + y }
 * Lambda
 
 ```
-val lambda = { x: Int, y: Int -> x + y }
+val lambda1 = { x: Int, y: Int -> x + y }
+val lambda2: (Int, Int, Int) -> Int = { x, y, z -> x * y * z }
+
 ```
 
 * Operator
