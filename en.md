@@ -121,14 +121,32 @@ Returns value.
 
 ```
 for (c in "sequence") { ... }
+for ((i, c) in "sequence".withIndex()) { println("$i: $c") }
 ```
 
-```
-for ((i,c) in "sequence".withIndex()) { println("$i: $c") }
-```
+#### Loop for collection
 
 ```
 for (c in 'A'..'Z') { ... }
+for (i in intArrayOf(1, 2, 3)) { ... }
+```
+
+#### Loop for number
+
+##### Ordinary Order
+
+```
+for (i in 1..10) { ... }
+for (i in 1..10 step 3) { ... }
+```
+
+The number just after `step` must be greater than 0.
+
+##### Reverse Order
+
+```
+for (i in 10 downTo 5) { ... }
+for (i in 10 downTo 5 step 2) { ... }
 ```
 
 ### `while` loop
