@@ -261,6 +261,7 @@ abstract class AbstractClass {
 * Internally, singleton class
     ```
     object Object {
+        const val c = 1
         fun objectFunction() { ... }
     }
     ```
