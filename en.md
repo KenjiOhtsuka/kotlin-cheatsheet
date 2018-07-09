@@ -151,6 +151,14 @@ for (i in 10 downTo 5 step 2) { ... }
 
 ### `while` loop
 
+```
+while (condition) { ... }
+```
+
+```
+do { ... } while (condition)
+```
+
 ## Class
 
 ### Class Common
