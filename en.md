@@ -58,6 +58,12 @@ val lambda2: (Int, Int, Int) -> Int = { x, y, z -> x * y * z }
 ```
 ```
 
+* Infix function
+    * condition
+        * member functions or extension functions;
+        * Must have a single parameter;
+        * The parameter must not be `vararg`, must not have default value.
+
 ## Variable
 
 * Declation
