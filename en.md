@@ -326,4 +326,23 @@ List, Map, Array
 * observable
 * Function
 
+## Annotation
+
+`@Target` - アノテーションが付与可能な要素を指定する。 classes, functions, properties, expressions etc.
+`@Retention` - アノテーションがコンパイルされたクラスに保存されるか、リフレクションで見ることができるかを指定。 デフォルトでは両方 `true`
+`@Repeatable` - 1つの対象に複数回アノテーションを付けられるか。
+`@MustBeDocumented` - アノテーションが公開APIに含まれ、APIドキュメントに記述されるべきかを指定する。
+
+### use-site
+
+* `file`
+* `property` - この指定があるアノテーションは Java から見えない
+* `field`
+* `get` (property getter);
+* `set` (property setter);
+* `receiver` (receiver parameter of an extension function or property)
+* `param` (constructor parameter)
+* `setparam` (property setter parameter)
+* `delegate` - デリゲートされたプロパティのための、デリゲートインスタンスを保持しているフィールド
+
 ## DSL Development
