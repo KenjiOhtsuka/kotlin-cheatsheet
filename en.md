@@ -328,10 +328,10 @@ List, Map, Array
 
 ## Annotation
 
-`@Target` - アノテーションが付与可能な要素を指定する。 classes, functions, properties, expressions etc.
-`@Retention` - アノテーションがコンパイルされたクラスに保存されるか、リフレクションで見ることができるかを指定。 デフォルトでは両方 `true`
-`@Repeatable` - 1つの対象に複数回アノテーションを付けられるか。
-`@MustBeDocumented` - アノテーションが公開APIに含まれ、APIドキュメントに記述されるべきかを指定する。
+* `@Target` - アノテーションが付与可能な要素を指定する。 classes, functions, properties, expressions etc.
+* `@Retention` - アノテーションがコンパイルされたクラスに保存されるか、リフレクションで見ることができるかを指定。 デフォルトでは両方 `true`
+* `@Repeatable` - 1つの対象に複数回アノテーションを付けられるか。
+* `@MustBeDocumented` - アノテーションが公開APIに含まれ、APIドキュメントに記述されるべきかを指定する。
 
 ### use-site
 
