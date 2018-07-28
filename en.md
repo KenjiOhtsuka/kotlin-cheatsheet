@@ -352,3 +352,30 @@ List, Map, Array
 * `delegate` - デリゲートされたプロパティのための、デリゲートインスタンスを保持しているフィールド
 
 ## DSL Development
+
+## Overload for Java
+
+* Normal Kotlin function
+    ```kotlin
+    fun sample(a: String = "", b: Int = 1) {
+      // ...
+    }
+    ```
+* To show function Java as Overloading function, use `@JvmOverloads`.
+    ```kotlin
+    // Overload for constructor
+    class Sample @JvmOverloads constructor(x: Int, y: Int = 1) {
+      @JvmOverloads fun sample(a: String, b: String = "") {
+        // ...
+      }
+    }
+    ```
+* If secondary constructor has all default value, no argument constructor will be generated,
+    without `@JvmOverloads`.
+    ```kotlin
+    class Sample {
+      fun constructor(a: Int = 1) {
+        // ...
+      }
+    }
+    ```
